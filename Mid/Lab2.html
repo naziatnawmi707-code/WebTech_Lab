@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Student Service Portal</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Student Service Portal</h1>
+            <p>Submit your university service requests easily</p>
+        </header
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+        </nav>
+        
+        <main>
+            <section>
+                <h2>Available Services</h2>
+                <p>
+                    Students can request Transcript,ID CArd, Bonafide Certificate, General Inquiry and other university services using this portal.
+                </p>
+            </section>
+        </main>
+        <secrion class="form">
+            <h2>Service Request Form</h2>
+            <form>
+                <lable>Student Name</lable><br>
+                <input type="text" required>
+                <br><br>
+
+                <lable>Student ID</lable><br>
+                <input type="text" maxlength="10" required>
+                <br><br>
+
+                <lable>Student Email</lable><br>
+                <input type="email" required>
+                <br><br>
+
+                <select>
+                    <option>Transcription</option>
+                    <option>ID Card</option>
+                    <option>General Inquiry</option>
+                    <option>Bonafide Certificate</option>
+                </select>
+                <br><br>
+                <lable>Urgency Level</lable><br>
+                <input type="radio" name="urgent">low
+                <input type="radio" name="urgent">Medium
+                <input type="radio" name="urgent">High
+                <br><br>
+                <lable>Additional Details</lable><br>
+                <textarea rows="5" cols="40"></textarea>
+                <br><br>
+                <input type="submit" value="Submit">
+
+            </form>
+        </secrion>
+        <footer>
+            <p>&copy; 2026 Student Service Portal</p>
+        </footer>
+    </body>
+</html>
